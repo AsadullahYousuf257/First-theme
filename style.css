@@ -1,0 +1,889 @@
+/*
+Theme Name: Cubicuz Solutions
+Theme URI: https://Cubicuz.com
+Author: Cubicuz Solutions
+Author URI: https://cubicuz.com
+Description: Cubicuz Solutions was founded in 2012, we’ve been dedicated to helping large enterprises in Pakistan and global small businesses and agencies successfully navigate the waters of digital marketing and information technology.
+Template: 
+Version: 1.1
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+Text Domain: cubicuzsolutions
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+
+@media screen and (min-device-width: 1100px) and (max-device-width: 3000px) {
+
+.col-md-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 24% !important;
+    max-width: 25%;
+}
+}
+@import url('https://fonts.cdnfonts.com/css/inter');
+@import url('https://fonts.cdnfonts.com/css/oswald-4');
+
+@font-face {
+    font-family: "Inter Medium";
+    src: url(assets/fonts/Inter/Inter-Medium.woff);
+}
+@font-face {
+    font-family: "Inter Light";
+    src: url(assets/fonts/Inter/Inter-Light-BETA.woff);
+}
+@font-face {
+    font-family: "Inter Regular";
+    src: url(assets/fonts/Inter/Inter-Regular.woff);
+}
+@font-face {
+    font-family: "Inter Black";
+    src: url(assets/fonts/Inter/Inter-Black.woff);
+}
+@font-face {
+    font-family: "Inter Bold";
+    src: url(assets/fonts/Inter/Inter-Bold.woff);
+}
+@font-face {
+    font-family: "Inter ExtraBold";
+    src: url(assets/fonts/Inter/Inter-ExtraBold.woff);
+}
+@font-face {
+    font-family: "Oswald Bold";
+    src: url(assets/fonts/Oswald/Oswald-Bold.woff);
+}
+@font-face {
+    font-family: "Oswald DemiBold";
+    src: url(assets/fonts/Oswald/Oswald-DemiBold.woff);
+}
+@font-face {
+    font-family: "Oswald ExtraLight";
+    src: url(assets/fonts/Oswald/Oswald-ExtraLight.woff);
+}
+@font-face {
+    font-family: "Oswald Heavy";
+    src: url(assets/fonts/Oswald/Oswald-Heavy.woff);
+}
+@font-face {
+    font-family: "Oswald Light";
+    src: url(assets/fonts/Oswald/Oswald-Light.woff);
+}
+@font-face {
+    font-family: "Oswald Medium";
+    src: url(assets/fonts/Oswald/Oswald-Medium.woff);
+}
+@font-face {
+    font-family: "Oswald Light";
+    src: url(assets/font/Oswald/Oswald-Light.woff);
+}
+:root {
+    --custom-yellow: #E9B41A;
+    --white: #ffffff;
+    --custom-black: #1C1500;
+   
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+/* Header */
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    width: 1140px;
+    margin: auto;
+    background-color: #1C1500 !important;
+}
+.container-fluid.header-container {
+    background-color: #1C1500;
+}
+a.nav-link {
+    color: #fff !important;
+    font-family: 'Inter Light';
+    font-size: 17px;
+    font-weight: 400;
+}
+a.navbar-brand img {
+    width: 245px;
+}
+ul.navbar-nav.mr-auto.mt-2.mt-lg-0 {
+    margin-left: 110px;
+}
+a.nav-link {
+    padding: 15px 30px !important;
+}
+ul.navbar-nav.mr-auto.mt-2.mt-lg-0 {
+    margin-left: 80px;
+}
+button.btn.btn-outline-success.my-2.my-sm-0 {
+    background-color: var(--custom-yellow);
+    color: var(--white);
+    font-family: 'Inter Bold';
+    font-size: 16px;
+    font-weight: 600;
+    height: 55px;
+    border-radius: 15px;
+    border: 0px;
+    width: 175px;
+}
+button.btn.btn-outline-success.my-2.my-sm-0:hover {
+    border: 2px solid #E9B41A;
+    background-color: transparent;
+}
+a.nav-link:hover {
+    color: var(--custom-yellow)!important;
+}
+a.nav-link .active:active {
+    color: var(--custom-yellow)!important;
+}
+/* Header End */
+.background-img {
+    background-image: url("assets/img/what-makes-a-good-logo-1 1.png");
+    background-repeat: repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgb(28 21 0 / 75%);
+    padding: 70px;
+    animation: scroll 10s linear infinite;
+
+    
+}
+@keyframes scroll {
+    to {
+      background-position: -500px 0;
+    }
+  }
+h1.first-heading {
+    font-weight: 700;
+    font-size: 49px;
+    color: var(--white);
+    font-family: 'Oswald Bold';
+    font-size: 92px;
+}
+.red-text{
+    color: var(--custom-yellow);
+}
+.heading {
+    margin: auto;
+}
+img.logo-img {
+    width: 600px;
+}
+li.lists {
+    font-size: 27px;
+    font-family: 'Inter Bold';
+    font-weight: 600;
+    color: #fff;
+}
+ul.unorder-list {
+    margin-top: 32px;
+}
+span.number {
+    color: var(--custom-yellow);
+    font-weight: 600;
+    font-family: 'Oswald Medium';
+    font-size: 41px;
+}
+span.call-for-qoutation {
+    font-size: 25px;
+    color: var(--white);
+    font-weight: 400;
+    margin-left: 17px;
+    font-family: 'Inter Medium';
+}
+/* Counter */
+
+a:hover{
+    text-decoration: none;
+}
+.smoke {
+    background-color: #F9F9F9;
+}
+.col-sm-12.col-md-4.col-lg-4.col-xl-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 54px 54px 6px;
+}
+span.counter-1 {
+    font-family: 'Inter Bold';
+    font-weight: 700;
+    font-size: 60px;
+    color: var(--white);
+    margin-right: 20px;
+}
+span.counter {
+    font-family: 'Inter Bold';
+    font-weight: 700;
+    font-size: 60px;
+    color: var(--custom-yellow);
+    margin-right: 20px;
+}
+span.counter-title {
+    font-size: 25px;
+    font-family: 'Inter Bold';
+    font-weight: 600;
+    position: relative;
+    top: -32px;
+}
+span.counter-description {
+    font-family: 'Inter Light';
+    font-size: 24px;
+    color: #B5B5B5;
+    font-weight: 500;
+    margin-left: 146px;
+    position: relative;
+    top: -44px;
+}
+.black{
+    background-color: #1C1500;
+}
+span.counter-title-1 {
+    font-size: 25px;
+    font-family: 'Inter Bold';
+    font-weight: 600;
+    position: relative;
+    top: -32px;
+    color:var(--white);
+}
+span.counter-description-1 {
+    font-family: 'Inter Light';
+    font-size: 24px;
+    color: #798196;
+    font-weight: 500;
+    margin-left: 106px;
+    position: relative;
+    top: -44px;
+}
+.counter-1{
+    color:var(--white)
+}
+.red{
+    background-color: var(--custom-yellow);
+}
+.counter-description-2{
+    font-family: 'Inter Light';
+    font-size: 24px;
+    color: #DEDEDE;
+    font-weight: 500;
+    margin-left: 146px;
+    position: relative;
+    top: -44px;
+}
+.container-fluid.background-section-img{
+    /* background-image: url("abstract_pattern_04_03 1.png"); */
+    background-size: cover;
+    padding: 60px;
+}
+
+/* Style the tab */
+.tab {
+    float: left;
+    /* border: 1px solid #ccc; */
+    background-color: #1C1500;
+    width: 30%;
+    /* height: 600px; */
+    padding: 40px 0px 0px 29px;
+}
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    display: block;
+    background-color: inherit;
+    color: #1C1500;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  /* button.tablinks:hover {
+    border-right: 10px solid #FF0028;
+} */
+  /* .tab button:hover {
+    background-color: #ddd;
+  } */
+  
+  /* Create an active/current "tab button" class */
+  .tab button.active {
+    border-right: 10px solid #E9B41A;
+}
+button.tablinks {
+    color: #fff;
+    font-family: 'Inter Bold';
+    font-weight: 700;
+    font-size: 21px;
+    border-bottom: 1px solid #505050;
+
+}
+  
+  /* Style the tab content */
+  .tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    background-color: #F2F2F2;
+    width: 70%;
+    border-left: none;
+    /* height: 600px; */
+    padding: 11px 20px;
+  }
+  h5.custom {
+    font-family: 'Inter Bold';
+    font-size: 25px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+h1.logo {
+    font-weight: 900;
+    font-family: 'Inter Black';
+    font-size: 65px;
+    color: var(--custom-yellow);
+    text-transform: uppercase;
+}
+h5.design-service {
+    font-family: 'Inter Bold';
+    font-size: 25px;
+    font-weight: 400;
+    color: #747474;
+    margin-bottom: 52px;
+    text-transform: uppercase;
+}
+span.vertical-number {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 70px;
+    color: var(--custom-yellow);
+}
+span.vertical-tab-title {
+    font-family: 'Inter Bold';
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+img.portfolio-logo {
+    width: 225px;
+    height: 155px;
+} 
+
+p.tab-content-title {
+    font-family: 'Inter Regular';
+    font-weight: 400;
+    font-size: 20px;
+    color: #798196;
+}
+button.btn.btn-outline-success.my-2.my-sm-0.Order-now:hover {
+    background-color: var(--custom-black);
+    border: 1px solid #1C1500;
+}
+button.transparent-btn {
+    background-color: transparent;
+    color: var(--custom-black);
+    font-family: 'Inter Bold';
+    font-size: 16px;
+    font-weight: 600;
+    height: 55px;
+    border-radius: 15px;
+    border: 2px solid #1C1500;
+    width: 175px;
+}
+button.transparent-btn:hover{
+    background-color: var(--custom-yellow);
+    border: 2px solid;
+    color: var(--white);
+}
+.buttons-div {
+    margin-top: 23px;
+    display: flex;
+    justify-content: end;
+    padding-right: 19px;
+}
+button.btn.btn-outline-success.my-2.my-sm-0.Order-now {
+    margin-right: 22px;
+}
+.offer-include{
+    background-color:var(--custom-black);
+    padding: 70px;
+}
+img.offer-logo {
+    width: 350px;
+}
+h4.offer-title {
+    font-family: 'Inter Bold';
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+    border-bottom: 5px solid #E9B41A;
+    width: 300px;
+    color: var(--white);
+}
+img.offer-logo {
+    width: 350px;
+    position: relative;
+    left: -21px;
+    margin-left: -20px;
+}
+.offer-heading{
+    font-weight: 700;
+    font-size: 49px;
+    color: var(--white);
+    font-family: 'Oswald Bold';
+    font-size: 53px;
+    margin-bottom: 50px;
+}
+.call-for-qoutation-offer{
+    font-size: 27px;
+    color: var(--white);
+    font-weight: 400;
+    margin-top: 17px;
+    font-family: 'Inter Light';
+}
+img.offer-img {
+    margin-top: 20px;
+    width: 50px;
+    margin-bottom: 20px;
+}
+h4.offer-title-service {
+    font-family: 'Inter Bold';
+    color: var(--white);
+    font-weight: 700;
+    font-size: 23px;
+}
+p.offer-para {
+    font-family: 'Inter Regular';
+    color:var(--white);
+    font-weight: 400;
+    font-size: 17px;
+}
+h2.service-offer {
+    font-family: 'Oswald Bold';
+    font-weight: 700;
+    font-size: 74px;
+}
+.service-offer-div{
+    padding:50px;
+}
+span.redtext-service-offer{
+    color: var(--custom-yellow);
+}
+img.service-offer-img {
+    width: 352px;
+    margin-bottom: 16px;
+}
+.col-md-3.service-column {
+    border: 1px solid #CCCCCC;
+    border-radius: 20px;
+    padding: 20px 5px;
+   
+}
+.col-md-6.service-column {
+    border: 1px solid #CCCCCC;
+    border-radius: 20px;
+    padding: 20px 5px;
+   
+}
+.service-column:hover {
+    box-shadow: 27.6652px 27.6652px 80.4807px rgb(0 0 0 / 10%);
+}
+img.palceholder {
+    margin-left: auto;
+    display: flex;
+    margin-right: auto;
+    width: 77px;
+    margin-bottom: 16px;
+}
+h5.service-offer-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+p.service-offer-description {
+    font-family: 'Inter light';
+    font-size: 16px;
+    font-weight: 400;
+    color: #798196;
+    text-align: center;
+}
+.col-md-6.service-column.ml-1 {
+    width: 45% !important;
+    max-width: 48%;
+    margin-left: 13px !important;
+}
+.col-md-6.service-column.ml-1:nth-child(odd) {
+    margin-left: 0px !important;
+}
+img.service-offer-img {
+    width: 352px;
+    margin-bottom: 16px;
+    height: 395px;
+}
+.what-say{
+    background-color:var(--custom-yellow);
+    padding: 40px;
+}
+.blacktext-service-offer{
+    color: var(--custom-black);
+}
+img.what-say-img {
+    width: 340px;
+}
+img.launch-your-business {
+    width: 100%;
+    margin-bottom: 9px;
+    height: 500px;
+}
+.laucnh-your-business-online{
+    padding: 40px 0 40px 0 !important;
+}
+.container-fluid.contact-form {
+    background-image: url("assets/img/Group 370.png");
+    background-size: cover;
+    padding: 40px;
+    /* margin-bottom: 50px; */
+}
+.inner {
+    background-color: var(--white);
+    box-shadow: 0px 20px 27px rgb(0 0 0 / 5%);
+    border-radius: 16px;
+    /* padding: 40px; */
+}
+p.contact-form-para {
+    font-family: 'Inter Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #67748E;
+    line-height: 18px;
+    margin-left: 9px;
+}
+.col-md-4.contact-form-inner-column-bg {
+    background-image: url("assets/img/Background.png");
+    background-size: cover;
+}
+.col-md-8.get-in-touch {
+    padding: 40px;
+}
+h1.title-contact-form {
+    font-family: 'Oswald Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54.4px;
+    color: var(--white);
+    margin: 0pc 26px 0 71px;
+    text-align: end;
+    margin-bottom: 16px;
+}
+/* Footer */
+li.inner-li.social {
+    display: inline-block;
+    padding: 7px;
+    font-weight: 700;
+    color: var(--custom-yellow);
+}
+.form {
+    margin-top: 70px;
+}
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    background: #FAFAFA;
+    border: 1px solid rgba(197, 197, 197, 0.7);
+    border-radius: 16px;
+    height: 64px;
+    padding-left: 20px;
+    width: 100%;
+}
+textarea.wpcf7-form-control.wpcf7-textarea {
+    background: #FAFAFA;
+    border: 1px solid rgba(197, 197, 197, 0.7);
+    border-radius: 16px;
+    width: 100%;
+    height: 135px;
+    padding-left: 20px;
+}
+input.wpcf7-form-control.has-spinner.wpcf7-submit {
+    margin-top: 30px;
+    background: var(--custom-yellow);
+    border-radius: 15px;
+    color: #fff;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 20px;
+    width: 224px;
+    height: 63px;
+    border: 0px solid;
+}
+.container-fluid.footer {
+    background-color: #26272A;
+    padding: 30px;
+    border-bottom: 2px solid #E9B41A;
+}
+p.footer-para {
+    font-family: 'Inter light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.3333px;
+    color: var(--white);
+}
+.footer-links {
+    padding: 89px 0px 0px 58px;
+}
+.col-md-4.footer-links.social {
+    text-align: center;
+}
+h4.footer-headings {
+    font-family: 'Inter Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25.33px;
+    color: var(--white);
+}
+a.uppar-anchor {
+    font-family: 'Inter Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.3333px;
+    color: var(--white);
+}
+li.inner-li {
+    padding: 10px 0px;
+}
+ul.footer-inner-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a.uppar-anchor:hover {
+    text-decoration: none;
+    color: var(--custom-yellow);
+}
+.work {
+    padding-left: 77px !important;
+}
+footer{
+    background-color: #26272A;
+    
+}
+p.copyright-txt {
+    font-family: 'Inter Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.3333px;
+    color: var(--white);
+    text-align: center;
+}
+
+/* Profesional Page */
+.container-fluid.black-bg {
+    background-color: var(--custom-black);
+    padding: 65px 223px;
+    text-align: center;
+}
+h1.professional-title {
+    font-family: 'Oswald Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 59.83px;
+    color: var(--white);
+}
+span.professional-title-red-text {
+    color: var(--custom-yellow);
+}
+h1.professional-page-title {
+    font-family: 'Oswald Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66.36px;
+    text-transform: capitalize;
+}
+.container.professional-service {
+    padding: 60px 0px;
+}
+span.professional-red {
+    color: var(--custom-yellow);
+}
+
+p.professional-page-para {
+    font-family: 'Inter Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.1202px;
+    color: #798196;
+    margin-top: 20px;
+}
+img.professional-page-img {
+    width: 455px;
+    height: 655px;
+}
+.container-fluid.bg-light {
+    padding: 60px;
+}
+h2.business-and-trade {
+    font-family: 'Oswald Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 61.36px;
+    text-transform: capitalize;
+}
+h4.professional-logo-title-service {
+    font-family: 'Inter Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25.1906px;
+}
+p.professional-logo {
+    font-family: 'Inter Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.7144px;
+    color: #798196;
+    padding: 0px 46px 0px 0px;
+}
+span.call-for-qoutation-offer-professional-page {
+    font-family: 'Inter Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25.1526px;
+}
+.col-md-6.profesional-page-btn-div {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+/* Portfolio Page */
+
+.wrapper{
+	width: 100%;
+	min-height: auto;
+	margin: 20px auto;
+}
+.wrapper ul{
+	list-style: none;
+	padding: 0;
+}
+.wrapper ul:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+.wrapper ul li {
+    width: calc(30% - 0px);
+    margin: 30px 15px 0;
+    height: 250px;
+    background-size: cover;
+    background-position: center center;
+    float: left;
+    box-shadow: 0 0px 27px 1px rgb(0 0 0 / 36%);
+    border-radius: 20px;
+}
+.wrapper ul li:nth-child(1n + 4){
+	max-height: 0;
+	opacity: 0;
+	transition: 0.2s ease-in;
+}
+.wrapper .btn-area{
+	display: block;
+	background: var(--custom-yellow);
+	color: #fff;
+	cursor: pointer;
+	text-align: center;
+	font-weight: 900;
+	width: 180px;
+	line-height: 50px;
+	margin: 50px auto 0;
+	border-radius: 50px;
+    font-family: 'Inter Black';
+}
+.wrapper .btn-area .btn2 {
+  display: none;
+}
+.wrapper #btnBox {
+  display: none;
+}
+.wrapper #btnBox:checked ~ ul li:nth-child(1n + 4) {
+  max-height: 1000px;
+  opacity: 1;
+  transition: 0.2s ease-in;
+}
+.wrapper #btnBox:checked ~ .btn-area .btn2 {
+  display: block;
+}
+.wrapper #btnBox:checked ~ .btn-area .btn1 {
+  display: none;
+}
+
+.logo-for-portfolio-1{
+    background-image: url("assets/img/Group 361.png");
+}
+.logo-for-portfolio-2{
+    background-image: url("assets/img/Group 368.png");
+}
+.logo-for-portfolio-3{
+    background-image: url("assets/img/Group 357.png");
+}
+.logo-for-portfolio-4{
+    background-image: url("assets/img/Group 356.png");
+}
+.logo-for-portfolio-5{
+    background-image: url("assets/img/Group 354.png");
+}
+.logo-for-portfolio-6{
+    background-image: url("assets/img/Group 362.png");
+}
+.logo-for-portfolio-7{
+    background-image: url("assets/img/Group 363.png");
+}
+.logo-for-portfolio-8{
+    background-image: url("assets/img/Group 349.png");
+}
+.logo-for-portfolio-9{
+    background-image: url("assets/img/Group 350.png");
+}
+
+/* Service Page */
+.col-md-3.even {
+    background-color: #232323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: var(--white);
+}
+h2.order-service {
+    font-family: 'Oswald Bold';
+    font-size: 100px;
+    font-weight: 700;
+}
+.col-md-3.odd {
+    background-color: var(--custom-yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: var(--white);
+}
+.col-md-9 {
+    background-color: #F5F5F5;
+    padding: 24px;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+
+
+h3.services-title {
+    font-family: 'Inter Bold';
+    font-weight: 700;
+    font-size: 31px;
+}
+p.services-para {
+    font-family: 'Inter Light';
+    font-weight: 400;
+    font-size: 17px;
+}
+
